@@ -31,8 +31,8 @@ int run_test_from_json(const std::string& filename) {
             ++hits;
         }
     }
-
-    EXPECT_EQ(hits, expected_hits) << "Test file: " << filename;
+    std::cout << "Hits " << hits << std::endl;
+    EXPECT_EQ(hits, expected_hits) ;
     return hits;
 }
 
@@ -48,8 +48,9 @@ TEST_P(LRUCacheJSONTests, FromJSONFile) {
 
 std::vector<std::string> collect_json_files() {
     std::vector<std::string> files;
-    std::string dir = "../Data";
-    for (const auto& entry :  std::filesystem::directory_iterator(dir)) {
+    auto LRU_dir = std::string(TEST_DATA_DIR) + "/LRU/";
+    std::cout << "Curent path:" << std::filesystem::current_path() << " test dir: " << LRU_dir <<  std::endl;
+    for (const auto& entry :  std::filesystem::directory_iterator(LRU_dir)) {
         if (entry.path().extension() == ".json") {
             files.push_back(entry.path().string());
         }

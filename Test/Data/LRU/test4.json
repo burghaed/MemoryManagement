@@ -1,0 +1,5 @@
+{
+  "cache_size": 10,
+  "accesses": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+  "expected_hits": 9
+}
