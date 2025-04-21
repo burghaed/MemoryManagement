@@ -1,2 +1,0 @@
-Target dependency graph (1 target)
-Target 'RUN_TESTS' in project 'MemoryManagement' (no dependencies)

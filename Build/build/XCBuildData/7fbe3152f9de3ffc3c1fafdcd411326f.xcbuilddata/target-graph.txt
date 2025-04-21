@@ -1,7 +1,0 @@
-Target dependency graph (3 targets)
-Target 'cache_tests' in project 'MemoryManagement'
-➜ Explicit dependency on target 'MemoryManagement' in project 'MemoryManagement'
-➜ Explicit dependency on target 'ZERO_CHECK' in project 'MemoryManagement'
-Target 'MemoryManagement' in project 'MemoryManagement'
-➜ Explicit dependency on target 'ZERO_CHECK' in project 'MemoryManagement'
-Target 'ZERO_CHECK' in project 'MemoryManagement' (no dependencies)
