@@ -1,0 +1,1131 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		23312AB4756C291C0305EE8D /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 73419B905D2940759CD73B13 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				003C8D08B0008F35F218E126 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+		AE723851AD865D2E7274ADDE /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3D8015A379B043D6AEB23E68 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				2C9149251F9E2C6B62099A17 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				448EF2FFA87D42CB834A8696 /* PBXTargetDependency */,
+				4E67CB653F8145D8B8B45882 /* PBXTargetDependency */,
+				A6B16128567346429481A7A3 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		BDED16F75CA84DFCAD7BD8B3 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 333929C6328349A39F39D928 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				BF01AAE03DA2C9C7FF9B0C5E /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1AA1F31B4D6A4CFC8CAA2F72 /* /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Cache/CacheLRU.cpp */ = {isa = PBXBuildFile; fileRef = B0A7DF8A9AE045B499745848 /* /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Cache/CacheLRU.cpp */; };
+		31450A0F6CAB4C3496F54DB2 /* /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Cache/CacheLRU.h */ = {isa = PBXBuildFile; fileRef = 613ED0CB4D914704B7115ACD /* /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Cache/CacheLRU.h */; };
+		5163112128D349C78988946E /* /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Cache/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 2390BD0C1DAD40229F7DC450 /* /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Cache/CMakeLists.txt */; };
+		6B593096F64A4A558922C4DB /* /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Test/CacheLRUTests.cpp */ = {isa = PBXBuildFile; fileRef = 94F8639047B040D8B9F84716 /* /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Test/CacheLRUTests.cpp */; };
+		72BE452A8D504BF98DDB2F04 /* /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Test/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 98D6A0BCC1504DC6A53FADCA /* /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Test/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		040AB141701C41B29E5B8F3B /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		56B2181CCC3C48CB9CF7AB31 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		C09AEAD5129F4F7FA9F139FB /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		FA2CDF233B4B40449D1501A6 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		117D158E3BED4A80A04372DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B92985DDC59E4777B5D04FE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E21CCEBDAC8F802CD6376744;
+			remoteInfo = cache_tests;
+		};
+		3237FE6D8CAD4DB6BC93371F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B92985DDC59E4777B5D04FE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDED16F75CA84DFCAD7BD8B3;
+			remoteInfo = ZERO_CHECK;
+		};
+		390C63306E2D4BDBAADC0171 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B92985DDC59E4777B5D04FE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 435553C7B9C61F3350086847;
+			remoteInfo = MemoryManagement;
+		};
+		3B90386573F44A17B3FB9F23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B92985DDC59E4777B5D04FE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDED16F75CA84DFCAD7BD8B3;
+			remoteInfo = ZERO_CHECK;
+		};
+		6BD78193C97146C8B1F10118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B92985DDC59E4777B5D04FE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDED16F75CA84DFCAD7BD8B3;
+			remoteInfo = ZERO_CHECK;
+		};
+		A31FFC82C2E34C7BB2F799AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B92985DDC59E4777B5D04FE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 435553C7B9C61F3350086847;
+			remoteInfo = MemoryManagement;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E77588134E84F60B04A3FFE /* MemoryManagement */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libMemoryManagement.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2390BD0C1DAD40229F7DC450 /* /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Cache/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = Cache/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3614B87B73FC496486BE9B47 /* /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		51E5446C433A4CA7A91F05A2 /* cache_tests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = cache_tests; sourceTree = BUILT_PRODUCTS_DIR; };
+		613ED0CB4D914704B7115ACD /* /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Cache/CacheLRU.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CacheLRU.h; path = Cache/CacheLRU.h; sourceTree = SOURCE_ROOT; };
+		94F8639047B040D8B9F84716 /* /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Test/CacheLRUTests.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CacheLRUTests.cpp; path = Test/CacheLRUTests.cpp; sourceTree = SOURCE_ROOT; };
+		98D6A0BCC1504DC6A53FADCA /* /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Test/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = Test/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B0A7DF8A9AE045B499745848 /* /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Cache/CacheLRU.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CacheLRU.cpp; path = Cache/CacheLRU.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C51438070D884C63B2857B55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19A4B30089F449EAB351AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F818E570E6946589BE5CA2B /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				89A6409F10664E22982EDAEB /* CMake Rules */,
+				3614B87B73FC496486BE9B47 /* /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		534544B48BA7401FBBDB4995 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		766D3290AA604BD291F42628 /* cache_tests */ = {
+			isa = PBXGroup;
+			children = (
+				D1BEC47FDA014812BB3D27C2 /* Source Files */,
+				98D6A0BCC1504DC6A53FADCA /* /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Test/CMakeLists.txt */,
+			);
+			name = cache_tests;
+			sourceTree = "<group>";
+		};
+		7BAD3D5F712F4BBCB6100EF6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		89A6409F10664E22982EDAEB /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		8E157E81C0FD4DF1B427AB42 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0A7DF8A9AE045B499745848 /* /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Cache/CacheLRU.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		B8279E7D185A4FCD91A7ED0F /* MemoryManagement */ = {
+			isa = PBXGroup;
+			children = (
+				F81A5165CDDA49CCB5E7609F /* Header Files */,
+				8E157E81C0FD4DF1B427AB42 /* Source Files */,
+				2390BD0C1DAD40229F7DC450 /* /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Cache/CMakeLists.txt */,
+			);
+			name = MemoryManagement;
+			sourceTree = "<group>";
+		};
+		D1BEC47FDA014812BB3D27C2 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				94F8639047B040D8B9F84716 /* /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Test/CacheLRUTests.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		F81A5165CDDA49CCB5E7609F /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				613ED0CB4D914704B7115ACD /* /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Cache/CacheLRU.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		FA4505472AF7414A8658C32F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E77588134E84F60B04A3FFE /* MemoryManagement */,
+				51E5446C433A4CA7A91F05A2 /* cache_tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFF107431FEC4EA78B323EAE = {
+			isa = PBXGroup;
+			children = (
+				3F818E570E6946589BE5CA2B /* ALL_BUILD */,
+				B8279E7D185A4FCD91A7ED0F /* MemoryManagement */,
+				766D3290AA604BD291F42628 /* cache_tests */,
+				FA4505472AF7414A8658C32F /* Products */,
+				534544B48BA7401FBBDB4995 /* Frameworks */,
+				7BAD3D5F712F4BBCB6100EF6 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		435553C7B9C61F3350086847 /* MemoryManagement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D932E5DFDFE438DA8700338 /* Build configuration list for PBXNativeTarget "MemoryManagement" */;
+			buildPhases = (
+				3F7E2880C0244E3EBB076705 /* Sources */,
+				E19A4B30089F449EAB351AAC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00A72812094A49E6AB2D54BB /* PBXTargetDependency */,
+			);
+			name = MemoryManagement;
+			productName = MemoryManagement;
+			productReference = 0E77588134E84F60B04A3FFE /* MemoryManagement */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E21CCEBDAC8F802CD6376744 /* cache_tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC84062EF3B442D83C69DF0 /* Build configuration list for PBXNativeTarget "cache_tests" */;
+			buildPhases = (
+				B48539A8B6DB4C028707144B /* Sources */,
+				C51438070D884C63B2857B55 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09071685B34C483BA9F6ED6C /* PBXTargetDependency */,
+				E393D087FB354598A415C7EE /* PBXTargetDependency */,
+			);
+			name = cache_tests;
+			productName = cache_tests;
+			productReference = 51E5446C433A4CA7A91F05A2 /* cache_tests */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B92985DDC59E4777B5D04FE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1620;
+			};
+			buildConfigurationList = 3E56177F2F1446B7B012BC97 /* Build configuration list for PBXProject "MemoryManagement" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				040AB141701C41B29E5B8F3B /* Debug */,
+				56B2181CCC3C48CB9CF7AB31 /* Release */,
+				FA2CDF233B4B40449D1501A6 /* MinSizeRel */,
+				C09AEAD5129F4F7FA9F139FB /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = FFF107431FEC4EA78B323EAE;
+			projectDirPath = /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement;
+			projectRoot = "";
+			targets = (
+				AE723851AD865D2E7274ADDE /* ALL_BUILD */,
+				435553C7B9C61F3350086847 /* MemoryManagement */,
+				23312AB4756C291C0305EE8D /* RUN_TESTS */,
+				BDED16F75CA84DFCAD7BD8B3 /* ZERO_CHECK */,
+				E21CCEBDAC8F802CD6376744 /* cache_tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		003C8D08B0008F35F218E126 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build
+  /opt/homebrew/bin/ctest --force-new-ctest-process -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build
+  /opt/homebrew/bin/ctest --force-new-ctest-process -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build
+  /opt/homebrew/bin/ctest --force-new-ctest-process -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build
+  /opt/homebrew/bin/ctest --force-new-ctest-process -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		2C9149251F9E2C6B62099A17 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		910A41151295C5F9742C25BD = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		BF01AAE03DA2C9C7FF9B0C5E /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build
+  make -f /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build
+  make -f /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build
+  make -f /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build
+  make -f /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F7E2880C0244E3EBB076705 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA1F31B4D6A4CFC8CAA2F72 /* /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Cache/CacheLRU.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48539A8B6DB4C028707144B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B593096F64A4A558922C4DB /* /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Test/CacheLRUTests.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00A72812094A49E6AB2D54BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDED16F75CA84DFCAD7BD8B3 /* ZERO_CHECK */;
+			targetProxy = 6BD78193C97146C8B1F10118 /* PBXContainerItemProxy */;
+		};
+		09071685B34C483BA9F6ED6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 435553C7B9C61F3350086847 /* MemoryManagement */;
+			targetProxy = 390C63306E2D4BDBAADC0171 /* PBXContainerItemProxy */;
+		};
+		448EF2FFA87D42CB834A8696 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 435553C7B9C61F3350086847 /* MemoryManagement */;
+			targetProxy = A31FFC82C2E34C7BB2F799AC /* PBXContainerItemProxy */;
+		};
+		4E67CB653F8145D8B8B45882 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E21CCEBDAC8F802CD6376744 /* cache_tests */;
+			targetProxy = 117D158E3BED4A80A04372DF /* PBXContainerItemProxy */;
+		};
+		A6B16128567346429481A7A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDED16F75CA84DFCAD7BD8B3 /* ZERO_CHECK */;
+			targetProxy = 3B90386573F44A17B3FB9F23 /* PBXContainerItemProxy */;
+		};
+		E393D087FB354598A415C7EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDED16F75CA84DFCAD7BD8B3 /* ZERO_CHECK */;
+			targetProxy = 3237FE6D8CAD4DB6BC93371F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11FBCEEC3FE64CBD8F28114D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/Test/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Cache,"$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++20' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/opt/homebrew/lib/libgtest_main.a,/Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/Cache/MinSizeRel/libMemoryManagement.a,/opt/homebrew/lib/libgtest.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cache_tests;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/build/cache_tests.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		14ED06F9928E4CC28DCCD8BB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		214F45B032FE497DA8984350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/Test/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Cache,"$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++20' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/opt/homebrew/lib/libgtest_main.a,/Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/Cache/Release/libMemoryManagement.a,/opt/homebrew/lib/libgtest.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cache_tests;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/build/cache_tests.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		268FD79514E244DCAAE48151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		26BAF5F6FCBC47DB972542AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk;
+				SYMROOT = /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/build;
+			};
+			name = Debug;
+		};
+		2FFE6BB705E2402C920F23E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		33E51581F71F403E8C2501E4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5A4743D747954D42ACEBD069 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/Test/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Cache,"$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++20' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/opt/homebrew/lib/libgtest_main.a,/Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/Cache/RelWithDebInfo/libMemoryManagement.a,/opt/homebrew/lib/libgtest.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cache_tests;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/build/cache_tests.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5AC1A46FA98044D88BA749A2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6248E626C5274BF7BDAD757F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/build;
+			};
+			name = Release;
+		};
+		757E1901CC504E3980F07FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/Test/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Cache,"$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++20' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/opt/homebrew/lib/libgtest_main.a,/Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/Cache/Debug/libMemoryManagement.a,/opt/homebrew/lib/libgtest.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cache_tests;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/build/cache_tests.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7714DC5AE5174B66A3DA0926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		892CE4369650470880BA2FD9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8BFF5E5A0A904FB2AB09784F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		983C30743F344B8C9748C336 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		992C1C0745934B2990B54FD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/Cache/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Cache,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++20' -Wall -Wextra -Wpedantic ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MemoryManagement;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/build/MemoryManagement.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		9CF69676F12D413CB231FEEE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/Cache/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Cache,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++20' -Wall -Wextra -Wpedantic ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MemoryManagement;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/build/MemoryManagement.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		BBF181CD199442BDACC65768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DB97A47713D7483480DD6B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		DCBFC6E64AA34DA3B0E592E2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/Cache/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Cache,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++20' -Wall -Wextra -Wpedantic ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MemoryManagement;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/build/MemoryManagement.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DDB6391B63CB433D98BE533B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E2F2A0792C4F406DA08254B1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/build;
+			};
+			name = MinSizeRel;
+		};
+		F2647C4309A4437DA09EC803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F8F689D1FED243CBA302B612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/Cache/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Cache,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++20' -Wall -Wextra -Wpedantic ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MemoryManagement;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/build/MemoryManagement.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		333929C6328349A39F39D928 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268FD79514E244DCAAE48151 /* Debug */,
+				DB97A47713D7483480DD6B10 /* Release */,
+				892CE4369650470880BA2FD9 /* MinSizeRel */,
+				33E51581F71F403E8C2501E4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3D8015A379B043D6AEB23E68 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FFE6BB705E2402C920F23E0 /* Debug */,
+				7714DC5AE5174B66A3DA0926 /* Release */,
+				5AC1A46FA98044D88BA749A2 /* MinSizeRel */,
+				983C30743F344B8C9748C336 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3E56177F2F1446B7B012BC97 /* Build configuration list for PBXProject "MemoryManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26BAF5F6FCBC47DB972542AB /* Debug */,
+				6248E626C5274BF7BDAD757F /* Release */,
+				E2F2A0792C4F406DA08254B1 /* MinSizeRel */,
+				8BFF5E5A0A904FB2AB09784F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4D932E5DFDFE438DA8700338 /* Build configuration list for PBXNativeTarget "MemoryManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				992C1C0745934B2990B54FD3 /* Debug */,
+				F8F689D1FED243CBA302B612 /* Release */,
+				DCBFC6E64AA34DA3B0E592E2 /* MinSizeRel */,
+				9CF69676F12D413CB231FEEE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		73419B905D2940759CD73B13 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBF181CD199442BDACC65768 /* Debug */,
+				F2647C4309A4437DA09EC803 /* Release */,
+				14ED06F9928E4CC28DCCD8BB /* MinSizeRel */,
+				DDB6391B63CB433D98BE533B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DDC84062EF3B442D83C69DF0 /* Build configuration list for PBXNativeTarget "cache_tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				757E1901CC504E3980F07FD7 /* Debug */,
+				214F45B032FE497DA8984350 /* Release */,
+				11FBCEEC3FE64CBD8F28114D /* MinSizeRel */,
+				5A4743D747954D42ACEBD069 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B92985DDC59E4777B5D04FE6 /* Project object */;
+}

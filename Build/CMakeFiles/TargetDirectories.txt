@@ -1,0 +1,7 @@
+/Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/CMakeFiles/RUN_TESTS.dir
+/Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/CMakeFiles/ALL_BUILD.dir
+/Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/CMakeFiles/ZERO_CHECK.dir
+/Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/Cache/CMakeFiles/MemoryManagement.dir
+/Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/Cache/CMakeFiles/RUN_TESTS.dir
+/Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/Test/CMakeFiles/cache_tests.dir
+/Users/eduardtburghardt/Documents/Codding/Playground/MemoryMangement/Build/Test/CMakeFiles/RUN_TESTS.dir
